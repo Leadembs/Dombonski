@@ -1,0 +1,4 @@
+AuthName "Zone protégée"
+AuthType Basic
+AuthUserFile "/home/exmachinef/www/je-code/mdsb1/ldembinski/admin/.htpasswd"
+Require valid-user

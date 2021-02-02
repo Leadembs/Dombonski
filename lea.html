@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="fichier.js"></script>
+</head>
+
+<body>
+    <?php
+    Hello world!
+    ?>
+
+    <div id="container">
+        <h1>Contact</h1>
+
+        <form action="mailto:teo.vanmeerhaeghe@my-digital-school.org" method="post" onsubmit="return good()"
+            name="contact">
+
+            <div id="bloc">
+                
+                <select id="nationalite">
+                    <option>Français(e)</option>
+                    <option>Anglais(e)</option>
+                    <option>Belge</option>
+                </select>
+            </div>
+
+            <div id="jesaispas">
+                Mr<input class="civ" type="radio" name="civ">
+                Mme<input class="civ" type="radio" name="civ">
+                Non Binaire<input class="civ" type="radio" name="civ">
+            </div>
+
+            <div>
+                <input class="text" type="text" name="user_name" placeholder="Nom, Prénom">
+            </div>
+
+          
+
+            <div>
+                <input class="text" type="e-mail" name="user_mail" placeholder="Email">
+            </div>
+
+            <div>
+                <input class="text" type="number" name="user_phone" placeholder="Numéro de Téléphone">
+            </div>
+
+            <div id="date">
+                <input type="date" name="Date" placeholder="Date de Naissance">
+            </div>
+
+        
+
+            <div>
+                <textarea id="msg" class="text" name="user_message" placeholder="Message"></textarea>
+            </div>
+
+
+            <div id="button">
+                <button type="submit">ENVOYER</button>
+            </div>
+
+            <div id="hub">
+                <a href="index.html">Revenir en arrière</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
